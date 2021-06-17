@@ -28,7 +28,7 @@ Run `npm run e2e` to execute the end-to-end tests via [TestCafe](http://www.test
 ```
 Test: "Create an item on a board and check if that item is not on the other board"
 
-Basically, we are able to create as many boards as we want. If you create an item for a specific board, I should be able to see that item on that board only. However, I can see it in all the other boards too. That's the bug
+Basically, we are able to create as many boards as we want. If you create an item for a specific board, you should be able to see that item on that board only. However, you can see it in all the other boards too. That's the bug
 ```
 
 ## Further help
