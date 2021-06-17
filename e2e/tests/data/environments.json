@@ -1,0 +1,8 @@
+{
+    "local": {
+        "baseUrl": "http://localhost:4200/"
+    },
+    "dev": {
+        "baseUrl": "http://some-dev-url/"
+    }
+}
