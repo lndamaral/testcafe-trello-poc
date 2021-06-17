@@ -21,7 +21,15 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `npm run e2e` to execute the end-to-end tests via [TestCafe](http://www.testcafe.io/).
-(Bear in mind that the aplication must be running previously: `ng serve`)
+
+- Bear in mind that the aplication must be running previously: `ng serve`
+- Also, there is one test failing:
+
+```
+Test: "Create an item on a board and check if that item is not on the other board"
+
+Basically, we are able to create as many boards as we want. If you create an item for a specific board, I should be able to see that item on that board only. However, I can see it in all the other boards too. That's the bug
+```
 
 ## Further help
 

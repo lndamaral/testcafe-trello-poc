@@ -46,8 +46,6 @@ class BoardPage {
         return await $("a[id=boardTitle]").withText(boardName).exists
     }
 
-
-
 }
 
 export default new BoardPage();
